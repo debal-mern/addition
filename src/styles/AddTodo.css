@@ -1,0 +1,22 @@
+.add-todo-container {
+        background-color: #6B7E8D;
+        box-shadow: 0px 1px 7px 7px rgba(0, 0, 0, 0.05);
+}
+
+.add-todo-input {
+        width: 75%;
+        border: none;
+        height: 7vmin;
+        outline: none;
+        font-size: 3vmin;
+        color: #FFFFFF;
+        padding: 7px 15px;
+        background-color: #ffffff15;
+}
+
+@media only screen and (max-width: 600px) {
+        .add-todo-input {
+                height: 12vmin;
+                font-size: 4.5vmin;
+        }
+}
